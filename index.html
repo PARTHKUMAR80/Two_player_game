@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&    family=Palette+Mosaic&display=swap" rel="stylesheet">
+
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1 id="header">Lets see who wins the Game!!!</h1>
+    <div class="main-container">
+        <div class="player">
+            <h1 class="player-h1"><span id="number-span1" class="number-span">...</span></h1>
+            <div class="empty" id="empty-11">
+                <div id="empty-score-block1">
+                    ...
+                </div>
+            </div>
+            <div class="btn-container">
+                <button class="btn" id="player1-btn">Click Me</button>
+            </div>
+        </div>
+        <div class="player">
+            <h1 class="player-h1"><span id="number-span2" class="number-span">...</span></h1>
+            <div class="empty" id="empty-22">
+                <div id="empty-score-block2">
+                    ...
+                </div>
+            </div>
+            <div class="btn-container">
+                <button class="btn" id="player2-btn">Click Me</button>
+            </div>
+        </div>
+    </div>
+    <div class="small-container">
+        <div id="score-1">
+            <span class="number-of-wins" id="no-of-wins-1">...</span>
+        </div>
+        <div id="score-2">
+            <span class="number-of-wins" id="no-of-wins-2">...</span>
+        </div>
+    </div>
+    <div id="change-color">
+        <button id="change-color-btn">Change Color</button>
+    </div>
+    <footer>
+        <button id="reset">Reset</button>
+    </footer>
+</body>
+</html>
